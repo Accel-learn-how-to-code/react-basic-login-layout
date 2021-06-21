@@ -11,17 +11,17 @@ const { Title } = Typography;
 ReactDOM.render(
   <React.StrictMode>
     <div className="container">
-    <div className="header">
-      <div className="navbar">
-        <CheckSquareOutlined className="iconChecked" />
-        <Typography className="titleContainer">
-          <Title className="title" level={3}>
-            Building Management
-          </Title>
-        </Typography>
+      <div className="header">
+        <div className="navbar">
+          <CheckSquareOutlined className="iconChecked" />
+          <Typography className="titleContainer">
+            <Title className="title" level={3}>
+              Building Management
+            </Title>
+          </Typography>
+        </div>
       </div>
-    </div>
-    <App />F
+      <App />
     </div>
   </React.StrictMode>,
   document.getElementById("root")
